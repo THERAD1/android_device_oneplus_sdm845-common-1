@@ -87,7 +87,7 @@ PRODUCT_PACKAGES += \
     GCam
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilts/etc/permissions/org.codeaurora.snapcam.xml:system/etc/permissions/org.codeaurora.snapcam.xml
+    $(LOCAL_PATH)/prebuilts/etc/permissions/com.google.android.GoogleCamera.Urnyx.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.GoogleCamera.Urnyx.xml
 
 # Common init scripts
 PRODUCT_PACKAGES += \
